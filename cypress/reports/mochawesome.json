@@ -1,0 +1,90 @@
+{
+  "stats": {
+    "suites": 0,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2024-06-26T15:13:51.302Z",
+    "end": "2024-06-26T15:13:51.907Z",
+    "duration": 605,
+    "testsRegistered": 1,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "5f8ebbaa-72cb-4903-aa35-f1fd97d7b227",
+      "title": "",
+      "fullFile": "cypress\\integration\\examples\\BDD\\todoist\\todoistStepDef.spec.js",
+      "file": "cypress\\integration\\examples\\BDD\\todoist\\todoistStepDef.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [
+        {
+          "title": "An uncaught error was detected outside of a test",
+          "fullTitle": "An uncaught error was detected outside of a test",
+          "timedOut": null,
+          "duration": 262,
+          "state": "failed",
+          "speed": null,
+          "pass": false,
+          "fail": true,
+          "pending": false,
+          "context": "{\n  \"title\": \"cypress-mochawesome-reporter-screenshots\",\n  \"value\": [\n    [\n      \"\\\\BDD\\\\todoist\\\\todoistStepDef.spec.js\\\\An uncaught error was detected outside of a test (failed).png\"\n    ],\n    [\n      \"\\\\BDD\\\\todoist\\\\todoistStepDef.spec.js\\\\An uncaught error was detected outside of a test (failed) (attempt 2).png\"\n    ]\n  ]\n}",
+          "code": "throw err;",
+          "err": {
+            "message": "Error: The following error originated from your test code, not from Cypress.\n\n  > Expected to find a global registry (this usually means you are trying to define steps or hooks in support/e2e.js, which is not supported) (this might be a bug, please report at https://github.com/badeball/cypress-cucumber-preprocessor)\n\nWhen Cypress detects uncaught errors originating from your test code it will automatically fail the current test.\n\nCypress could not associate this error to any specific test.\n\nWe dynamically generated a new test to display this failure.",
+            "estack": "Error: The following error originated from your test code, not from Cypress.\n\n  > Expected to find a global registry (this usually means you are trying to define steps or hooks in support/e2e.js, which is not supported) (this might be a bug, please report at https://github.com/badeball/cypress-cucumber-preprocessor)\n\nWhen Cypress detects uncaught errors originating from your test code it will automatically fail the current test.\n\nCypress could not associate this error to any specific test.\n\nWe dynamically generated a new test to display this failure.\n    at createError (webpack://cypress/./node_modules/@badeball/cypress-cucumber-preprocessor/dist/helpers/error.js:10:0)\n    at fail (webpack://cypress/./node_modules/@badeball/cypress-cucumber-preprocessor/dist/helpers/assertions.js:14:0)\n    at assert (webpack://cypress/./node_modules/@badeball/cypress-cucumber-preprocessor/dist/helpers/assertions.js:20:0)\n    at assertAndReturn (webpack://cypress/./node_modules/@badeball/cypress-cucumber-preprocessor/dist/helpers/assertions.js:23:0)\n    at getRegistry (webpack://cypress/./node_modules/@badeball/cypress-cucumber-preprocessor/dist/registry.js:231:0)\n    at defineStep (webpack://cypress/./node_modules/@badeball/cypress-cucumber-preprocessor/dist/entrypoint-browser.js:42:0)\n    at eval (webpack://cypress/./cypress/integration/examples/BDD/todoist/todoistStepDef.spec.js:14:6)\n    at eval (http://localhost:63591/__cypress/tests?p=cypress\\integration\\examples\\BDD\\todoist\\todoistStepDef.spec.js:55652:3)\n    at eval (http://localhost:63591/__cypress/tests?p=cypress\\integration\\examples\\BDD\\todoist\\todoistStepDef.spec.js:55654:12)\n    at eval (<anonymous>)",
+            "diff": null
+          },
+          "uuid": "1685591b-86ed-4229-a177-4b45e9057c76",
+          "parentUUID": "5f8ebbaa-72cb-4903-aa35-f1fd97d7b227",
+          "isHook": false,
+          "skipped": false
+        }
+      ],
+      "suites": [],
+      "passes": [],
+      "failures": [
+        "1685591b-86ed-4229-a177-4b45e9057c76"
+      ],
+      "pending": [],
+      "skipped": [],
+      "duration": 262,
+      "root": true,
+      "rootEmpty": false,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/reports",
+        "overwrite": false,
+        "html": true,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}
