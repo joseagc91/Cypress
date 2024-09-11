@@ -1,18 +1,23 @@
 class LoginPage
 {
-    getEmailInput()
+    getUsernameInput()
     {
-       return cy.get('#element-0')
+       return cy.get('#user-name')
     }
 
     getPasswordInput()
     {
-       return cy.get('#element-3')
+       return cy.get('#password')
     }
 
     getLoginBtn()
     {
-       return cy.get("[data-gtm-id='start-email-login']")
+       return cy.get("#login-button")
+    }
+
+    getErrorMsg()
+    {
+       return cy.get('[data-test="error"]')
     }
 
 }

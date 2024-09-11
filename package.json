@@ -5,6 +5,7 @@
   "scripts": {
     "test": "npx cypress run",
     "headTest": "npm run test --headed",
+    "edgeTest": "npm run test --browser edge",
     "chromeTest": "npm run test --browser chrome"
   },
   "cypress-cucumber-preprocessor": {
