@@ -1,4 +1,17 @@
 # cypress
+
+To install run the next command:
+
+> `npm install`
+
+To run the tests on chrome run the next command:
+
+> `npm run test --browser chrome`
+
+To run the tests on edge run the next command:
+
+> `npm run test --browser edge`
+
 To generete the report first run the tests with the following command:
 
 > `npm run headTest`
